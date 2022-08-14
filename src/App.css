@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+}
+.SearchInput ,.postAndSearch
+
+{
+    width: 98%;
+    border: 2px solid #444;
+    display: flex;
+    align-items:center;
+
+}
+.SearchInput input{
+    width: 100%;
+    position:relative;
+}
+.postAndSearch,.SearchInput ,.inptAdd,.btnPost, .content {
+    margin:20px;
+    font-size: 30px;
+}
+
+.inptAdd,.btnPost{
+    padding: 10px 20px 10px 30px;
+    background: rgb(141, 138, 140);  
+}
+.btnPost{
+    width: 50%;
+}
+
+.content{
+    border: 2px solid #444;
+    width: 98%;
+    display: inline-block;
+
+}
+.btnPost:hover,.inptAdd:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+h3,h4,p{
+    margin: 10px;
+    padding-left: 15px;
+}
